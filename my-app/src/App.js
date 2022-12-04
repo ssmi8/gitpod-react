@@ -1,11 +1,10 @@
 import "./App.css";
-import { SearchBar, SearchBar1 } from "./components/SearchBar1";
-
+import UseEffectCounterContainer from "./components/UseEffectCounterContainer";
 
 function App() {
   return <div className="App">
-      <SearchBar1 />
-    </div>;
+      <UseEffectCounterContainer />
+  </div>;
 }
 
 export default App;
